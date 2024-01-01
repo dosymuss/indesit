@@ -1,0 +1,17 @@
+.main {
+    /*border-top: 1px solid gray;*/
+    margin: 15px 0;
+}
+.categoryText {
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categoryText h4 {
+    color: #2a2828;
+    font-size: 28px;
+    font-weight: 600;
+}

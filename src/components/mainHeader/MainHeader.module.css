@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px;
+    background-color: white;
+}
+.linkDiv{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.linkDiv a{
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.linkDiv a:hover{
+    color: #0090d0;
+}
+.iconLogo{
+width: 200px;
+}

@@ -1,0 +1,37 @@
+.main {
+    width: 1200px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainText {
+    width: 450px;
+}
+.mainText h2 {
+    color: #2a2828;
+    font-size: 28px;
+    font-weight: 600;
+}
+.mainText p {
+    color: #2a2828;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 20px 0;
+    text-align: justify;
+}
+.mainText button {
+    width: 250px;
+    height: 50px;
+    background-color: #0090d0;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.mainImg {
+    border-radius: 50px;
+    border: 1px solid white;
+}

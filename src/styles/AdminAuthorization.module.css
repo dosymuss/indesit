@@ -1,0 +1,264 @@
+.authPage {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(108deg, #FFF 0%, #0090D0 46.78%, #180CA3 100%);
+  position: relative;
+}
+
+.authLogo {
+  background-color: #0090D0;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 15px 0px #0090D0;
+  position: absolute;
+  top: 10px;
+  z-index: 20;
+}
+
+.authLogo img {
+  width: 80px;
+  height: 80px;
+}
+
+form {
+  display: flex;
+  width: 750px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 50px;
+  background: #FFF;
+  box-shadow: 0px 4px 15px 0px #0090D0;
+  position: relative;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.formGroup {
+  width: 600px;
+  height: 60px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #0C6AC2 0.07%, #0090D0 99.94%);
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.25) inset;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.authPageTitle {
+  margin: 25px 0;
+}
+
+
+.formGroup input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 10px;
+  background: transparent;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 18px;
+  outline: none;
+  color: white;
+
+}
+
+.formGroup input::placeholder {
+  color: rgb(208, 194, 194);
+}
+
+.inpImg {
+  width: 30px;
+  height: 30px;
+}
+
+.formGroup div {
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0090D0;
+}
+
+.passBtn {
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0090D0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+  margin-top: 5px;
+  display: block;
+  font-weight: 600;
+  margin: 0;
+}
+
+.adminAuthorizationButton {
+  width: 200px;
+  height: 54px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 18px;
+  padding: 16px;
+  border-radius: 6px;
+  background-color: white;
+  color: #0090D0;
+  border-radius: 25px;
+  background: #FFF;
+  box-shadow: 0px 4px 25px 0px #0090D0;
+}
+
+.adminAuthorizationButton:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.bottomWrap {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom {
+  display: flex;
+  width: 500px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0090d0;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  background-color: white;
+  border-radius: 0px 0px 50px 50px;
+}
+
+
+
+@media only screen and (max-width: 780px) {
+  form {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+  }
+
+  .formGroup {
+    width: 100%;
+    height: 50px;
+    border-radius: 15px;
+  }
+
+  .bottom {
+    display: flex;
+    width: 300px;
+    height: 45px;
+    font-family: Inter;
+    font-size: 20px;
+    border-radius: 0px 0px 50px 50px;
+  }
+
+  .authLogo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+  }
+
+  .authLogo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .error {
+    font-size: 16px;
+
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  form {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+  }
+
+  .formGroup {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+  }
+
+  .inpImg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .bottom {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    font-family: Inter;
+    font-size: 20px;
+    border-radius: 0px 0px 50px 50px;
+  }
+
+  .formGroup input {
+    font-size: 16px;
+
+  }
+
+  .authLogo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+  }
+
+  .adminAuthorizationButton {
+    width: 120px;
+    height: 44px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .error {
+    font-size: 12px;
+
+  }
+}

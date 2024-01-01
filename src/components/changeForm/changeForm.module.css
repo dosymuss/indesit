@@ -1,0 +1,57 @@
+.main {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    justify-content: space-around;
+}
+
+.img {
+    height: 600px;
+    min-width: 350px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.formDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.chooseDiv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+@media (max-width:650px) {
+    .img {
+        height: 450px;
+        min-width: 350px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+    .formDiv {
+        width: 90%;
+    }
+}
+
+@media (max-width:400px) {
+    .img {
+        height: 320px;
+        min-width: 320px;
+        border-radius: 20px;
+        margin-bottom: 15px;
+        width: 300px;
+    }
+}

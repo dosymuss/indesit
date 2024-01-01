@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    height: calc(100vh - 70px);
+    position: relative;
+    background-image: url("../../img/bac.jpg");
+    background-size: 100% 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.contentDiv {
+    width: 70vw;
+    height: 80vh;
+    border-radius: 40px;
+    background: rgba(255, 252, 252, 0.22);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media (max-width:1200px) {
+    .contentDiv {
+        width: 40vw;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+@media (max-width:900px) {
+    .contentDiv {
+        width: 100vw;
+        height: 100%;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        border-radius: 0;
+        background: white;
+    }
+}

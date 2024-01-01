@@ -1,0 +1,19 @@
+.div {
+    height: calc(100vh - 134px);
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+}
+.text{
+    font-size: 22px;
+    font-weight: 500;
+}

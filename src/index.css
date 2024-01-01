@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  scrollbar-width: thin;  /* для Firefox */
+  scrollbar-color: #888888 #f5f5f5;  /* цвет ползунка и фона */
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888888;  /* цвет ползунка */
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #f5f5f5;  /* цвет фона полосы прокрутки */
+}

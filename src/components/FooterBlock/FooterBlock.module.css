@@ -1,0 +1,36 @@
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #222428;
+    padding: 93px 125px 20px 125px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.logo{
+    width: 240px;
+}
+.iconAndLogoDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    width: 40px;
+}
+.iconDiv{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    width: 500px;
+    color: white;
+}
+.makeDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
